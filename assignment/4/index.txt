@@ -1,0 +1,35 @@
+In JavaScript, declaring variables serves several purposes:
+
+1. Memory allocation: Reserves space in memory for storing values.
+2. Identifier association: Associates a name (identifier) with the allocated memory.
+3. Data typing: Implicitly sets the data type based on assigned value.
+4. Scope definition: Defines variable accessibility within a specific scope.
+
+To declare variables using the let keyword:
+
+
+let variableName = initialValue;
+
+
+Example:
+
+let name = 'John Doe';
+let age = 30;
+
+
+let declarations:
+
+1. Have block scope (limited to nearest {}).
+2. Can be reassigned (name = 'Jane Doe';).
+3. Cannot be redeclared (let name = 'Jane Doe'; throws error).
+
+Best practices:
+
+1. Use meaningful variable names.
+2. Initialize variables with relevant values.
+3. Use let for mutable variables.
+4. Use const for immutable variables.
+
+
+const PI = 3.14; // immutable
+let counter = 0; // mutable

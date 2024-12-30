@@ -1,0 +1,54 @@
+Comments in JavaScript:
+
+Importance:
+
+1. Code readability: Clarifies complex logic.
+2. Documentation: Explains code purpose and functionality.
+3. Maintenance: Facilitates updates and debugging.
+4. Collaboration: Communicates intent to team members.
+
+Single-line comments:
+
+
+// This is a single-line comment
+let x = 10; // Inline comment
+
+
+Multi-line comments:
+
+
+/*
+This is a multi-line comment
+spanning multiple lines
+*/
+
+
+Best practices:
+
+1. Use clear, concise language.
+2. Explain "why," not "what."
+3. Update comments with code changes.
+4. Use comments for:
+
+    1. Function descriptions.
+    2. Algorithm explanations.
+    3. Variable purposes.
+    4. Debugging notes.
+
+Example:
+
+/*
+Calculates the area of a rectangle.
+@param {number} width
+@param {number} height
+@return {number} area
+*/
+function calculateArea(width, height) {
+    // Validate input
+    if (width < 0 || height < 0) {
+        throw new Error('Invalid dimensions');
+    }
+    // Calculate area
+    let area = width * height;
+    return area;
+}
